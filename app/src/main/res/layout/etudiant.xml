@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:divider="@android:color/darker_gray"
+    android:showDividers="middle">
+
+    <ImageView
+        android:id="@+id/imagePhoto"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:scaleType="centerCrop"
+        android:background="#CFD8DC"
+        android:contentDescription="Photo" />
+
+    <TextView
+        android:id="@+id/textId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:textSize="14sp"
+        android:textColor="#37474F"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textNom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:textSize="14sp"
+        android:textColor="#37474F"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textprenom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:textSize="14sp"
+        android:textColor="#37474F"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/textDateNaissance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.6"
+        android:textSize="14sp"
+        android:textColor="#37474F"
+        android:gravity="center" />
+
+</LinearLayout>
